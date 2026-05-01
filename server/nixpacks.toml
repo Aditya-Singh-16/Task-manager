@@ -1,5 +1,8 @@
+[phases.install]
+cmds = ["npm install", "cd ../client && npm install"]
+
 [phases.build]
-cmds = ["npm install", "npx prisma generate", "npx prisma db push"]
+cmds = ["npx prisma generate", "npx prisma db push", "cd ../client && npm run build"]
 
 [start]
 cmd = "node server.js"
