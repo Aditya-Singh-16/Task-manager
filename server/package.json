@@ -9,7 +9,7 @@
     "db:push": "npx prisma db push",
     "db:generate": "npx prisma generate",
     "db:studio": "npx prisma studio",
-    "postinstall": "npx prisma generate"
+    
   },
   "dependencies": {
     "@prisma/client": "^5.7.0",
